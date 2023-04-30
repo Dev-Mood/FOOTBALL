@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOOTBALL</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+  font-family: Verdana;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(37, 150, 190);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: dodgerblue;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+#img1 {
+  transition: all 0.3s ease-in-out;
+}
+#img1:hover {
+  transform: scale(1.2);
+}
+#img2 {
+  transition: all 0.3s ease-in-out;
+}
+#img2:hover {
+  transform: scale(1.2);
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><span style="color: orange;">FOOT</span>BALL</h1>
+  <p><i>"Welcome to the beautiful game."</i></p>
+</div>
+
+<div class="topnav">
+  <a href="largo.html">Home</a>
+  <a href="#">About us</a>
+  <a href="#">Team Members</a>
+  <a href="#">Memories</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><span style="color: orange;">FOOTBALL</span> IS <i>LIFE</i></h2>
+      <h5><span style="color: dodgerblue;">"Together</span> we're <span style="color: red;">stronger"</span></h5>
+      <div class="img"></div>
+      <img src="memories11.png" height="500px" width="100%" style="border-radius: 15px;">
+      <p style="font-family: Verdana;"><i>We are here today because we all share a passion for this beautiful game. We know that football is not just about winning or losing, it's about the journey we take together as a team. It's about the hard work and dedication we put in every single day, on and off the field. It's about the sacrifices we make for each other, and the bond we build as a family.</i></p>
+    </div>
+    <div class="card">
+      <h2 style="font-family: Verdana; text-align: center; justify-content: center; color: orangered;">Memories</h2>
+      <div class="img"></div>
+      <img src="memories2.png" height="500px" width="100%" style="border-radius: 15px;">
+      <p style="font-family: Verdana;"><i>Some of my fondest memories of football involve playing the game as a kid. I can still remember the feeling of putting on my boots and stepping out onto the pitch. The excitement of scoring a goal or making a save was exhilarating, and the sense of camaraderie I felt with my teammates was unparalleled.</i></p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2 style="text-align: center; justify-content: center;">About Me</h2>
+      <div class="img"></div>
+      <img src="memories1.png" height="200px" width="270px" style="border-radius: 10px;" id="img2">
+      <small style="font-family: Verdana; margin-left: 55px; color: darkblue; font-weight: bolder;">Largo Zenia Angela B.</small>
+      <p style="font-family: Verdana;"><i>Whenever the world football even enters my mind. I feel happy. It has always been there and serves as an escape from the real world. Football to me is an escape to the anxiety and weights of my regular day to day life. When I step on the field I get to quickly return to the memories of my youth.</i></p>
+    </div>
+    <div class="card">
+      <h3 style="text-align: center; justify-content: center; font-family: Verdana;">Achievement</h3>
+
+      <img src="memories3.png" height="300px" width="100%" style="border-radius: 15px;" id="img1">
+    </div>
+   
+
+  </div>
+</div>
+
+ 
+
+<footer>
+  <style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+  </style>
+        <div class="footer-content">
+            <h3 style="font-family: Verdana; color: yellow; font-weight: bolder;">Largo Zenia Angela B.</h3>
+            <p style="font-family: Verdana;">One of the most important lessons that football teaches us is teamwork. Football is a team sport, and no one can win alone. It takes a team of dedicated players, working together, to achieve victory. This lesson can be applied to many aspects of life, where working with others towards a common goal is essential for success.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p style="font-family: Verdana; font-weight: bolder;">Copyright &copy;2023 LZAB. Designed by <span style="color: yellow;">LZAB.</span></p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
